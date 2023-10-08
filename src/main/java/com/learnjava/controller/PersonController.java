@@ -15,13 +15,12 @@ import org.springframework.web.bind.annotation.RestController;
 import com.learnjava.model.Person;
 
 @RestController
+@RequestMapping("/myapi")
 public class PersonController {
-
+//curl -kv http://localhost:8080/person   http://localhost:8080/myapi/person/
 	
-	@RequestMapping("/")
-	String home() {
-		return "Hello World!";
-	}
+	
+
 	
 	@GetMapping("/person")
 	public List<Person> getAllPersons(){

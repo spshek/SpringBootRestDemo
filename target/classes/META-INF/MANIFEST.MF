@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Built-By: ssp
+Build-Jdk: 17.0.8.1
+Implementation-Title: SpringBootRestDemo
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: com.learnjava
+Implementation-URL: https://projects.spring.io/spring-boot/#/spring-boot
+ -starter-parent/SpringBootRestDemo
+Created-By: Maven Integration for Eclipse
+
