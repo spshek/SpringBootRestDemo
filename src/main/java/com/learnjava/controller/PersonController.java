@@ -28,7 +28,7 @@ public class PersonController {
 		List<Person> personList = new ArrayList<Person>();
 		personList.add(new Person(1,"Mickey Mouse", 30));
 		personList.add(new Person(2,"Donald Duck", 35));
-		personList.add(new Person(3,"Peppa Pig", 15));
+		personList.add(new Person(3,"Peppa Pigss", 15));
 		return personList;
 	} 
 	
