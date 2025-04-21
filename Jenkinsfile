@@ -18,10 +18,8 @@ pipeline {
                  projectName: 'SpringBootRestDemo',
                  filter: "target/sspboot.jar",
                  target: '']);
-             }
-         }
-     }
-}
-        
+             	}
+         	}
+     	}        
    }
 }
