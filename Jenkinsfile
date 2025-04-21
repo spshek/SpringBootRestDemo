@@ -15,7 +15,7 @@ pipeline {
          steps {
              script {
                  step ([$class: 'CopyArtifact',
-                 
+                 projectName: 'SpringBootRestDemo',
                  filter: "target/sspboot.jar",
                  target: '']);
              	}
