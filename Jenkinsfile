@@ -17,7 +17,7 @@ pipeline {
                  step ([$class: 'CopyArtifact',
                  projectName: 'jkpline1',
                  filter: "target/sspboot.jar",
-                 target: '/root']);
+                 target: 'tmp']);
              	}
          	}
      	}        
