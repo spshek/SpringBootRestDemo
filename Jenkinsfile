@@ -16,7 +16,7 @@ pipeline {
              script {
                  step ([$class: 'CopyArtifact',
                  projectName: 'jkpline1',
-                 filter: "*",
+                 filter: 'target/*',
                  target: 'tmp']);
              	}
          	}
