@@ -35,7 +35,7 @@ public class PersonController {
 	@GetMapping("/person/{personId}")
 	public Person getPersonWithId(@PathVariable Integer personId){
 		//Returns hardcoded data, a real world application would return from the database
-		return new Person(3,"Peppa Pig", 15);
+		return new Person(3,"Peppa Pigs", 15);
 	} 
 	
 	
