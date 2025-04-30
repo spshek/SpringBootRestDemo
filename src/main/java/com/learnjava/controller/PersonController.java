@@ -42,7 +42,7 @@ public class PersonController {
 	@PostMapping("/person/newperson")
 	public void addPerson(@RequestBody Person person){
 		//Just has a Sysout stmt, a real world application would save this record to the database
-		System.out.println("Saving personss information");
+		System.out.println("Saving the person information");
 		
 	}
 
